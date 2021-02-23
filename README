@@ -1,0 +1,3 @@
+Build Command:: sudo docker build -t jan22.2021
+Run Command:: docker run -P jan22.2021
+URL: http://localhost:3000/

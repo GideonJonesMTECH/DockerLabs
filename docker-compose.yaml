@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  web:
+    image: jan22.2021
+    image: jan22.2021
+    image: jan22.2021
+    ports:
+      - "3000:3000"
+  web:
+    image: jan22.2021
+    image: jan22.2021
+    ports:
+      - "3001:3000"
