@@ -1,3 +1,6 @@
-Build Command:: sudo docker build -t jan22.2021
-Run Command:: docker run -P jan22.2021
+Build Command:: sudo docker build -t jan22-2021 .
+Run Command:: docker run -P jan22-2021
+Run the Docker-Compose:: sudo docker stack deploy -c docker-compose.yaml dockerCompStack
+Stop the stack: docker stack rm dockerCompStack
 URL: http://localhost:3000/
+URL for Stack: http://localhost:3000/ and http://localhost:3001/

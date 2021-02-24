@@ -1,13 +1,14 @@
 version: "3.8"
 services:
-  web:
-    image: jan22.2021
-    image: jan22.2021
-    image: jan22.2021
+  web1:
+    image: jan22-2021:latest
     ports:
-      - "3000:3000"
-  web:
-    image: jan22.2021
-    image: jan22.2021
+      - 3000:3000
+    deploy:
+      replicas: 3
+  web2:
+    image: jan22-2021:latest
     ports:
-      - "3001:3000"
+      - 3001:3000
+    deploy:
+      replicas: 2
